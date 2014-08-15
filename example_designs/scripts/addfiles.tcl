@@ -13,7 +13,7 @@ proc dofile {f} {
 		set arg1 [lindex $l 1]
 		set arg2 [lindex $l 2]
 		if {$cmd != "ghdl"} {
-			set f_list [glob $::env(REPOS_FW_DIR)/$arg1]
+			set f_list [glob C:/Users/kratsg/ipbus/IPBus_ATLYS/$arg1]
 		} else {
 			set f_list [glob ipcore_dir/$arg1]
 		}			
@@ -52,12 +52,13 @@ proc addfile {f lib} {
 proc buildcore {f} {
 	puts "*** Building core: $f"
 	set bname [exec basename $f]
-	exec cp $f ipcore_dir
+	exec mkdir ipcore_dir
+	exec cp $f ipcore_dir/
 	cd ipcore_dir
 	exec coregen -r -b $bname -p coregen.cgp >& coregen.out
 	cd ..
 }
 
 set libs ""
-dofile $::env(REPOS_BUILD_DIR)/file_list
+dofile C:/Users/kratsg/ipbus/IPBus_ATLYS/example_designs/projects/demo_atlys/ise14/file_list
 
