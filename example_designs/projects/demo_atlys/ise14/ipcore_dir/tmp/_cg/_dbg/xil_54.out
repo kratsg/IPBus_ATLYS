@@ -1,0 +1,16 @@
+SET_PARAMETER mac_speed 1000_Mbps
+SET_PARAMETER statistics_reset true
+SET_PARAMETER physical_interface GMII
+SET_PARAMETER statistics_width 64bit
+SET_PARAMETER enable_1588_1step false
+SET_PARAMETER enable_1588 false
+SET_PARAMETER frame_filter false
+SET_PARAMETER component_name tri_mode_eth_mac_v5_4
+SET_PARAMETER management_interface false
+SET_PARAMETER number_of_table_entries 0
+SET_PARAMETER statistics_counters false
+SET_PARAMETER half_duplex false
+SET_PARAMETER enable_avb false
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	

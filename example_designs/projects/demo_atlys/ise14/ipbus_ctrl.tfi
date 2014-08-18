@@ -1,0 +1,35 @@
+
+
+
+// Instantiate the module
+ipbus_ctrl instance_name (
+    .mac_clk(mac_clk), 
+    .rst_macclk(rst_macclk), 
+    .ipb_clk(ipb_clk), 
+    .rst_ipb(rst_ipb), 
+    .mac_rx_data(mac_rx_data), 
+    .mac_rx_valid(mac_rx_valid), 
+    .mac_rx_last(mac_rx_last), 
+    .mac_rx_error(mac_rx_error), 
+    .mac_tx_data(mac_tx_data), 
+    .mac_tx_valid(mac_tx_valid), 
+    .mac_tx_last(mac_tx_last), 
+    .mac_tx_error(mac_tx_error), 
+    .mac_tx_ready(mac_tx_ready), 
+    .ipb_out(ipb_out), 
+    .ipb_in(ipb_in), 
+    .ipb_req(ipb_req), 
+    .ipb_grant(ipb_grant), 
+    .mac_addr(mac_addr), 
+    .ip_addr(ip_addr), 
+    .enable(enable), 
+    .RARP_select(RARP_select), 
+    .pkt_rx(pkt_rx), 
+    .pkt_tx(pkt_tx), 
+    .pkt_rx_led(pkt_rx_led), 
+    .pkt_tx_led(pkt_tx_led), 
+    .oob_in(oob_in), 
+    .oob_out(oob_out)
+    );
+
+

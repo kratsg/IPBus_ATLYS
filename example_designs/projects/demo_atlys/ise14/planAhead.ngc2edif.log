@@ -1,0 +1,36 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tri_mode_eth_mac_v5_4.ngc ...
+WARNING:NetListWriters:298 - No output is written to tri_mode_eth_mac_v5_4.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/trimac_top/TRI_SPEED.TRIMAC_INST/TXGEN/TX_SM1/GND_37_o_GND_37_o_sub_12_OUT
+   [7 : 2] on block tri_mode_eth_mac_v5_4 is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/trimac_top/TRI_SPEED.TRIMAC_INST/TXGEN/TX_SM1/DATA_REG[0][7]_GND_37_o_mux_
+   60_OUT[5 : 1] on block tri_mode_eth_mac_v5_4 is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/trimac_top/TRI_SPEED.TRIMAC_INST/TXGEN/TX_SM1/PREAMBLE_PIPE[13 : 0] on
+   block tri_mode_eth_mac_v5_4 is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file tri_mode_eth_mac_v5_4.edif ...
+ngc2edif: Total memory usage is 84324 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design mac_fifo_axi4.ngc ...
+WARNING:NetListWriters:298 - No output is written to mac_fifo_axi4.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mac_fifo_axi4.edif ...
+ngc2edif: Total memory usage is 80356 kilobytes
+

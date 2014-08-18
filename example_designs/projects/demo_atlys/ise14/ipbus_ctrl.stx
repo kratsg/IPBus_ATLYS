@@ -1,0 +1,148 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/tang/Desktop/IPBus_ATLYS/example_designs/projects/demo_atlys/ise14/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/tang/Desktop/IPBus_ATLYS/example_designs/projects/demo_atlys/ise14/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: ipbus_ctrl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\ipbus_trans_decl.vhd" into library work
+Parsing package <ipbus_trans_decl>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\ipbus_package.vhd" into library work
+Parsing package <ipbus>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_tx_mux.vhd" into library work
+Parsing entity <udp_tx_mux>.
+Parsing architecture <rtl> of entity <udp_tx_mux>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_txtransactor_if_simple.vhd" into library work
+Parsing entity <udp_txtransactor_if>.
+Parsing architecture <simple> of entity <udp_txtransactor_if>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_status_buffer.vhd" into library work
+Parsing entity <udp_status_buffer>.
+Parsing architecture <rtl> of entity <udp_status_buffer>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_rxtransactor_if_simple.vhd" into library work
+Parsing entity <udp_rxtransactor_if>.
+Parsing architecture <simple> of entity <udp_rxtransactor_if>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_rxram_shim.vhd" into library work
+Parsing entity <udp_rxram_shim>.
+Parsing architecture <simple> of entity <udp_rxram_shim>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_rxram_mux.vhd" into library work
+Parsing entity <udp_rxram_mux>.
+Parsing architecture <rtl> of entity <udp_rxram_mux>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_rarp_block.vhd" into library work
+Parsing entity <udp_rarp_block>.
+Parsing architecture <rtl> of entity <udp_rarp_block>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_packet_parser.vhd" into library work
+Parsing entity <udp_packet_parser>.
+Parsing architecture <v3> of entity <udp_packet_parser>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_ipaddr_block.vhd" into library work
+Parsing entity <udp_ipaddr_block>.
+Parsing architecture <rtl> of entity <udp_ipaddr_block>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_dualportram_tx.vhd" into library work
+Parsing entity <udp_DualPortRAM_tx>.
+Parsing architecture <v3> of entity <udp_dualportram_tx>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_dualportram_rx.vhd" into library work
+Parsing entity <udp_DualPortRAM_rx>.
+Parsing architecture <striped> of entity <udp_dualportram_rx>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_dualportram.vhd" into library work
+Parsing entity <udp_DualPortRAM>.
+Parsing architecture <initial> of entity <udp_dualportram>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_do_rx_reset.vhd" into library work
+Parsing entity <udp_do_rx_reset>.
+Parsing architecture <rtl> of entity <udp_do_rx_reset>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_clock_crossing_if.vhd" into library work
+Parsing entity <udp_clock_crossing_if>.
+Parsing architecture <rtl> of entity <udp_clock_crossing_if>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_byte_sum.vhd" into library work
+Parsing entity <udp_byte_sum>.
+Parsing architecture <rtl> of entity <udp_byte_sum>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_build_status.vhd" into library work
+Parsing entity <udp_build_status>.
+Parsing architecture <rtl> of entity <udp_build_status>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_build_resend.vhd" into library work
+Parsing entity <udp_build_resend>.
+Parsing architecture <rtl> of entity <udp_build_resend>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_build_ping.vhd" into library work
+Parsing entity <udp_build_ping>.
+Parsing architecture <rtl> of entity <udp_build_ping>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_build_payload.vhd" into library work
+Parsing entity <udp_build_payload>.
+Parsing architecture <rtl> of entity <udp_build_payload>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_build_arp.vhd" into library work
+Parsing entity <udp_build_arp>.
+Parsing architecture <rtl> of entity <udp_build_arp>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_buffer_selector.vhd" into library work
+Parsing entity <udp_buffer_selector>.
+Parsing architecture <simple> of entity <udp_buffer_selector>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\transactor_sm.vhd" into library work
+Parsing entity <transactor_sm>.
+Parsing architecture <rtl> of entity <transactor_sm>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\transactor_if.vhd" into library work
+Parsing entity <transactor_if>.
+Parsing architecture <rtl> of entity <transactor_if>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\transactor_cfg.vhd" into library work
+Parsing entity <transactor_cfg>.
+Parsing architecture <rtl> of entity <transactor_cfg>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\example_designs\hdl\clock_div.vhd" into library work
+Parsing entity <clock_div>.
+Parsing architecture <rtl> of entity <clock_div>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\udp_if_flat.vhd" into library work
+Parsing entity <UDP_if>.
+Parsing architecture <flat> of entity <udp_if>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\trans_arb.vhd" into library work
+Parsing entity <trans_arb>.
+Parsing architecture <rtl> of entity <trans_arb>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\transactor.vhd" into library work
+Parsing entity <transactor>.
+Parsing architecture <rtl> of entity <transactor>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\stretcher.vhd" into library work
+Parsing entity <stretcher>.
+Parsing architecture <rtl> of entity <stretcher>.
+Parsing VHDL file "C:\Users\tang\Desktop\IPBus_ATLYS\ipbus_core\hdl\ipbus_ctrl.vhd" into library work
+Parsing entity <ipbus_ctrl>.
+Parsing architecture <rtl> of entity <ipbus_ctrl>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.80 secs
+ 
+--> 
+
+Total memory usage is 200712 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
