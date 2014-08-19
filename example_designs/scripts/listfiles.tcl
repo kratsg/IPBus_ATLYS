@@ -11,7 +11,7 @@ proc dofile {file} {
 		set l [split $f]
 		set cmd [lindex $l 0]
 		set arg [lindex $l 1]
-		set parg $::env(REPOS_FW_DIR)/$arg
+		set parg C:/Users/tang/Desktop/IPBus_ATLYS/$arg
 		if {$cmd == "hdl"} {
 			addfile $arg
 		} elseif {$cmd == "ghdl"} {
@@ -31,5 +31,5 @@ proc addfile {file} {
 	puts $file
 }
 
-dofile $::env(REPOS_BUILD_DIR)/file_list
+dofile C:/Users/tang/Desktop/IPBus_ATLYS/example_designs/projects/demo_atlys/ise14/file_list
 

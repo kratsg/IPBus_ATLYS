@@ -1,7 +1,0 @@
-Fri Aug 15 21:04:19 2014
-
-Upgraded tri_mode_eth_mac_v5_4 from Tri Mode Ethernet MAC 5.4 to Tri Mode Ethernet MAC 5.5
-
-Added parameter enable_1588 with value false
-Added parameter enable_1588_1step with value false
-
